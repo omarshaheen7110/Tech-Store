@@ -61,7 +61,7 @@ button:hover{
 body.light-theme #featured .boxprice{
     direction: ltr;
  }
-#latest .boxprice{
+#latest .label,.value{
     text-align:center;
     width:100%;
 }
