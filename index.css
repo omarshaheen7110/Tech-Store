@@ -60,6 +60,9 @@ button:hover{
     background-color: var(--btn-hover-bg);
 
 }
+body.light-theme .boxprice{
+    direction: ltr;
+ }
 #fetured .row{
     display: flex;
     flex-wrap:wrap;
