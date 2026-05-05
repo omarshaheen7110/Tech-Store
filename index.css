@@ -130,6 +130,9 @@ body.dark-theme #featured .item .discount-2{
     
     text-shadow: 10px 10px 10px var(--btn-hover-bg);
  }
+body.light-theme #featured .item .discount-2{
+    color:#000;
+}
 body.light-theme #featured .item:hover .discount-2{
     color: #000;
     
