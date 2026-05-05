@@ -64,7 +64,7 @@ body.light-theme #featured .boxprice{
 #latest .boxprice{
     display:flex;
     justify-content: center;
-    text-align:center;
+    
     width:100%;
 }
     
