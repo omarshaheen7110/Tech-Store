@@ -117,6 +117,7 @@ button:hover{
 }
 #featured .item .discount-2{
     transition-duration: 0.75s;
+    color: #fff;
 }
 body.dark-theme #featured .item .discount-2{
     color:#fff;
