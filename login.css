@@ -1,0 +1,103 @@
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px 5%;
+}
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.light-theme .login-card { background-color: #f9f9f9; }
+.dark-theme  .login-card { background-color: rgba(255, 255, 255, 0.05); }
+
+/* -- TITLE -- */
+.login-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login-title h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+.light-theme .login-title h2 { color: #222; }
+.dark-theme  .login-title h2 { color: #ffffff; }
+
+/* -- LABELS -- */
+.login-card label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.light-theme .login-card label { color: #444; }
+.dark-theme  .login-card label  { color: #ffffff; }
+
+/* -- INPUTS -- */
+.login-card input {
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 2px solid;
+    background: transparent;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Segoe UI', sans-serif;
+    color: inherit;
+    box-sizing: border-box;
+}
+.light-theme .login-card input { border-color: #ccc; }
+.dark-theme  .login-card input { border-color: #ffffff; }
+.login-card input:focus { border-color: #333; }
+.dark-theme .login-card input:focus { border-color: #ffffff; }
+
+.login-tabs {
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 2px solid;
+}
+.light-theme .login-tabs { border-color: #ccc; }
+.dark-theme  .login-tabs { border-color: #ffffff; }
+.tab-btn {
+    flex: 1;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: inherit;
+    opacity: 0.5;
+    transition: 0.25s;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.tab-btn.active { opacity: 1; border-bottom: 3px solid; }
+.light-theme .tab-btn.active { border-color: #333; color: #222; }
+.dark-theme  .tab-btn.active { border-color: #ffffff; color: #ffffff; }
+
+#message {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    min-height: 20px;
+}
+.btn-submit {
+    width: 100%;
+    padding: 14px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.25s;
+    margin-top: 5px;
+}
+.light-theme .btn-submit { background-color: #333; color: #fff; }
+.dark-theme  .btn-submit { background-color: #ffffff; color: #000; }
+.btn-submit:hover { opacity: 0.85; transform: translateY(-2px); }

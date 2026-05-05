@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Store | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header class="main-header">
+    <div class="nav-wrapper">
+        <button onclick="toggleMenu()" class="menu-trigger-btn">Menu</button>
+        <ul id="myLinks" class="dropdown-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Log in / Register</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </div>
+
+    <div class="logo">Tech Store</div>
+
+    <button onclick="changeTheme()" class="theme-btn-top">Theme</button>
+</header>
+
+<main class="content-wrapper">
+    <div id="cartContainer" class="cart-container"></div>
+
+    <div class="contact-wrapper">
+    <main class="contact-inner">
+        <section class="form-section">
+            <div class="contact-title">
+                <h2>Get In Touch</h2>
+                <p>Power Meets Performance. Shop The Latest Tech Today.</p>
+            </div>
+            <form class="messageForm">
+                <div class="input-row">
+                    <div class="input-group"><input type="text" required><label>Your Name</label></div>
+                    <div class="input-group"><input type="email" required><label>Email</label></div>
+                </div>
+                <div class="input-group full"><input type="text" required><label>Subject</label></div>
+                <div class="input-group full"><textarea required></textarea><label>Message</label></div>
+                <button type="submit" class="btn-send">Send Message</button>
+            </form>
+        </section>
+    </main>
+</div>
+
+    <footer class="main-footer">
+    <div class="footer-top">
+        <div class="footer-col">
+            <h3>Tech Store</h3>
+            <p>Your trusted destination for the latest tech products in Cairo.</p>
+            <p>📍 City Stars Mall, Level 1</p>
+            <p>📞 +20 100 000 0000</p>
+            <p>✉️ techstore@gmail.com</p>
+        </div>
+        <div class="footer-col">
+            <h4>Information</h4>
+            <ul>
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>Careers</li>
+                <li>Press</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Helpful Links</h4>
+            <ul>
+                <li>Support</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Returns</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Tech Store | All Rights Are Reserved</p>
+    </div>
+</footer>
+    <script src="main.js"></script>
+</body>
+</html>
