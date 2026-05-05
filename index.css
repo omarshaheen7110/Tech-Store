@@ -17,6 +17,9 @@
     border-top-left-radius: 90px;
      border-bottom-right-radius: 90px;
 }
+body.light-theme .product{
+    background-color:rgba(245, 245, 245, 0.5);
+}
 .product h3{
     text-align: center;
     margin-bottom: 5px;
