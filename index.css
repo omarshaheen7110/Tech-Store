@@ -63,6 +63,7 @@ body.light-theme #featured .boxprice{
  }
 #latest .boxprice{
     text-align:center;
+    width:100%;
 }
     
 #fetured .row{
