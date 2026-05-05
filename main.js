@@ -53,7 +53,7 @@ function renderCart() {
     container.innerHTML = cart.map(item => {
         let p = features.find(x => x.id == item.id);
         if (!p) return "";
-        
+        let price = p.price * (1 - (p.discount || 0));
         total += price * item.quantity;
         return `<div class="cart-item">
             <img src="${p.image}" class="cart-img">
