@@ -3,7 +3,7 @@ var features = [
         id: 1,
         name: `HUAWEI MatePad 11.5`,
         image: `download (4).png`,
-        price: 13000,
+        price: 10400,
         discount: 0.2,
         description: `Display: Smooth 120Hz FullView Display.
 
@@ -31,7 +31,7 @@ Smart Features: Support for double-tap to switch tools and Take Snippet features
         id: 3,
         name: `HUAWEI Smart Keyboard`,
         image: `download (8).png`,
-        price: 3000,
+        price: 2400,
         discount: 0.2,
         description: `Design: Lightweight and durable with a high-quality finish for a premium feel.
 
@@ -45,7 +45,7 @@ Efficiency: Features over 40 shortcut combinations for faster navigation and pro
         id: 4,
         name: `HUAWEI FreeClip 2`,
         image: `download (7).png`,
-        price: 9000,
+        price: 8100,
         discount: 0.1,
         description: `Design: Innovative C-bridge Design for a comfortable, open-ear listening experience.
 
@@ -59,7 +59,7 @@ Durability: IP54 sweat and water resistance, making it perfect for workouts.`
         id: 5,
         name: `MacBook Air M3`,
         image: `download (22).png`,
-        price: 30000,
+        price: 24000,
         discount: 0.2,
         description: `Processor: Supercharged by the M3 chip with an 8-core CPU and up to 10-core GPU.
 
@@ -73,7 +73,7 @@ Battery Life: Up to 18 hours of battery life on a single charge.`
         id: 6,
         name: `Asus Rog Zephyrus`,
         image: `download (11).png`,
-        price: 30000,
+        price: 18000,
         discount: 0.4,
         description: `Processor: Up to AMD Ryzen 9 or Intel Core Ultra 9.
 
@@ -87,7 +87,7 @@ Cooling: Intelligent Cooling system with Tri-Fan technology and liquid metal.`
         id: 7,
         name: `Microsoft Surface Laptop`,
         image: `download (1).png`,
-        price: 36000,
+        price: 27000,
         discount: 0.25,
         description: `Processor: Snapdragon X Elite and Plus processors for AI-accelerated performance.
 
@@ -101,7 +101,7 @@ Battery Life: Up to 20-22 hours of video playback on a single charge.`
         id: 8,
         name: `Dell XPS 15 9510`,
         image: `download (6).png`,
-        price: 32000,
+        price: 28800,
         discount: 0.1,
         description: `Processor: 11th Gen Intel Core i7 or i9 processors.
 
@@ -115,7 +115,7 @@ Build: CNC machined aluminum and a carbon fiber palm rest.`
         id: 9,
         name: `Samsung Galaxy S24 Ultra`,
         image: `download (12).png`,
-        price: 19000,
+        price: 16150,
         discount: 0.15,
         description: `Processor: Snapdragon 8 Gen 3 for Galaxy.
 
@@ -129,7 +129,7 @@ AI Features: Galaxy AI for Circle to Search, Live Translate, and Note Assist.`
         id: 10,
         name: `Huawei Pura 90 Pro`,
         image: `download (23).png`,
-        price: 15000,
+        price: 13350,
         discount: 0.11,
         description: `Display: 6.9-inch LTPO OLED, 120Hz, Kunlun Glass.
 
@@ -143,7 +143,7 @@ Battery: 6,500 mAh with 120W Wired and 80W Wireless charging.`
         id: 11,
         name: `Google Pixel 10 Pro`,
         image: `download (13).png`,
-        price: 25000,
+        price: 24625,
         discount: 0.015,
         description: `Display: 6.3-inch Super Actua OLED, 1-120Hz, 3000 nits.
 
@@ -157,7 +157,7 @@ Battery: 5,100 mAh with 45W Fast Charging.`
         id: 12,
         name: `Xiaomi 16 Ultra`,
         image: `download (17).png`,
-        price: 31000,
+        price: 24800,
         discount: 0.2,
         description: `Display: 6.73-inch LTPO AMOLED, 12-bit color, 4000 nits brightness.
 
@@ -171,7 +171,7 @@ Battery: 6,000 mAh with 120W Wired and 80W Wireless charging.`
         id: 13,
         name: `Apple Watch Series 11`,
         image: `download (16).png`,
-        price: 10000,
+        price: 8000,
         discount: 0.2,
         description: `Sizes: Available in 42mm and 46mm cases.
 
@@ -185,7 +185,7 @@ Durability: Ion-X glass 2x more scratch-resistant than Series 10.`
         id: 14,
         name: `Huawei Watch GT 6 Pro`,
         image: `download (19).png`,
-        price: 12500,
+        price: 10000,
         discount: 0.2,
         description: `Design: Titanium case with Sapphire Crystal glass.
 
@@ -199,7 +199,7 @@ Sensors: ECG, Heart Rate, SpO2, Skin Temp, and Barometer.`
         id: 15,
         name: `Oura Ring Gen 4`,
         image: `download (20).png`,
-        price: 17000,
+        price: 16150,
         discount: 0.05,
         description: `Design: Ultra-slim Titanium, 100% circular.
 
@@ -213,7 +213,7 @@ Sensors: Heart Rate, SpO2, Skin Temperature, and Respiratory Rate.`
         id: 16,
         name: `Ray-Ban Meta`,
         image: `download (21).png`,
-        price: 11000,
+        price: 10340,
         discount: 0.06,
         description: `Camera: 12MP Ultra-wide for high-quality POV photos and videos.
 
