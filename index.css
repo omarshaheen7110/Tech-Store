@@ -34,7 +34,11 @@
 .boxprice {
     display: flex;
 }
+ body #latest .boxprice{
+    display: flex;
+    justify-content: center;
 
+ }
 pre,h4,h2{
     color: var(--text-color);
 }
