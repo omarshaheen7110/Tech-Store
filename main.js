@@ -98,7 +98,7 @@ function renderFeatured() {
                             ${finalPrice}<sup> EGP</sup>
                         </p></div>
                     </div>
-                    <button onclick="${btnFunc}(${p.id})">${btnText}</button>
+                    <button class="cart-btn" onclick="${btnFunc}(${p.id})">${btnText}</button>
                     <h6>hover to show details</h6>
                 </div>
             </div>
