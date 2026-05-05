@@ -77,7 +77,7 @@ function renderFeatured() {
     const container = document.querySelector("#featured .content .row");
     if (!container) return;
     const cart = getCart();
-    container.innerHTML = features.map(p => {
+    container.innerHTML = features.filter(p => p.id !== 0 && p.id !== 17).map(p => {
         const inCart = cart.some(item => item.id == p.id);
         const btnText = inCart ? "Remove From Cart" : "Add To Cart";
         const btnFunc = inCart ? "removeFromCart" : "addToCart";
