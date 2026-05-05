@@ -118,7 +118,7 @@ button:hover{
 #featured .item .discount-2{
     transition-duration: 0.75s;
 }
- #featured .item:hover .discount-2{
+ body.dark-theme #featured .item:hover .discount-2{
     color: var(--btn-hover-bg);
     
     text-shadow: 10px 10px 10px var(--btn-hover-bg);
