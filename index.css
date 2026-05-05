@@ -244,9 +244,9 @@ body.dark-theme {
 body.light-theme {
     --bg-body: #ffffff;
     --text-color: #000000;
-    --bg-item: rgba(172, 172, 148, 0.5); 
-    --bg-overlay: #605D60;
-    --btn-hover-bg: #4F4B54;
+    --bg-item: rgba(245, 245, 245, 0.5); 
+    --bg-overlay: #B1AE9C;;
+    --btn-hover-bg: #C5C3B7;;
     --btn-hover-text: #ffffff;
     --shadow-color: rgba(0, 0, 0, 0.1);
      direction: rtl;
