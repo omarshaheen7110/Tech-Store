@@ -162,7 +162,7 @@ body.light-theme #featured .item:hover .discount-2{
     justify-content: center;
     opacity: 0;
     transform: translateY(-100%);
-    transition: all 7s ease-in-out;
+    transition: all 6s ease-in-out;
     pointer-events: none;
     z-index: 30;
     font-weight: 400;
