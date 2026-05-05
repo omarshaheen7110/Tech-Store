@@ -26,6 +26,9 @@ body.light-theme .product{
     margin-bottom: 5px;
     color: var(--text-color);
 }
+.product h3,h4{
+    margin: 10px 0px;
+}
 .row img{
         margin:10px ;
         width: 80%;
