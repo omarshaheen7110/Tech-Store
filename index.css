@@ -40,6 +40,7 @@ body.light-theme .product{
  body #latest .boxprice{
     display: flex;
     justify-content: center;
+     direction:ltr;
 
  }
 pre,h4,h2{
