@@ -61,6 +61,10 @@ button:hover{
 body.light-theme #featured .boxprice{
     direction: ltr;
  }
+#latest .boxprice{
+    text-align:center;
+}
+    
 #fetured .row{
     display: flex;
     flex-wrap:wrap;
