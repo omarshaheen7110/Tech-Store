@@ -1,6 +1,7 @@
 .title h2{
     text-align: center;
     text-shadow:10px 10px 10px var(--text-color);
+    margin-bottom:5px;
 }
 #latest{
     padding: 5px 0px;
